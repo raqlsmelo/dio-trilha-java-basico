@@ -37,7 +37,7 @@ classDiagram
     - String description
   }
 
-  User "1"*--"1" Account
+  User "1" *-- "1" Account
   User *-- Feature
   User *-- Card
   User *-- News
